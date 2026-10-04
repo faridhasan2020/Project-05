@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "1. Train & save model",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/save_model.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "2. Run FastAPI server",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["main:app", "--reload", "--port", "8000"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "jinja": true
+    },
+    {
+      "name": "3. Test API",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/test_api.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
