@@ -1,7 +1,7 @@
-# ML Inference API Project – [Your Name]
+# ML Inference API Project – [Farid Hasan]
 
 **GitHub Repository:**
-https://github.com/yourusername/iris-api
+https://github.com/faridhasan2020/Project-05/iris-api
 
 **Model Used:**
 Scikit-learn pipeline (StandardScaler + Logistic Regression) trained on the Iris dataset.
