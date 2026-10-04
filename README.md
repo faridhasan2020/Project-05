@@ -49,7 +49,7 @@ iris-api/
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/iris-api.git
+git clone https://github.com/faridhasan2020/Project-05/iris-api.git
 cd iris-api
 
 # Create and activate a virtual environment
